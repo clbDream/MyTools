@@ -6,8 +6,7 @@
 1.吐司工具类
 ToastUtils.showToast(this,"弹出吐司成功");
 
-2.缓存清理工具类
-DataClean.cleanApplicationData(this,"文件的路径");
+2.缓存清理工具类DataClean.cleanApplicationData(this,"文件的路径");
 
 3.
 
