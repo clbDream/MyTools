@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
      */
     public void toast(View view) {
 
+        ToastUtils.showToast(this,"弹出吐司成功");
     }
 }
