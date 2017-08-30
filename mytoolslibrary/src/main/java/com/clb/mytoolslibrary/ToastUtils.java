@@ -9,7 +9,7 @@ import android.widget.Toast;
  * 吐司不消失的情况发生
  */
 public class ToastUtils {
-    private Toast toast;//在类前面声明吐司，确保在这个页面只有一个吐司
+    private static Toast toast;//在类前面声明吐司，确保在这个页面只有一个吐司
 
     /**
      * 弹吐司的方法
@@ -17,7 +17,7 @@ public class ToastUtils {
      * @param context 上下文
      * @param msg     需要弹出的吐司内容
      */
-    public void showToast(Context context, String msg) {
+    public static void showToast(Context context, String msg) {
 
         if (toast == null) {
             toast = Toast.makeText(context, msg, Toast.LENGTH_SHORT);
