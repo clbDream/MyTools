@@ -27,5 +27,6 @@ Add it in your root build.gradle at the end of repositories:
 **Step 2.** Add the dependency
 
 	dependencies {
+			//参考最新的版本号为准
 	        compile 'com.github.clbDream:MyTools:1.1'
 	}
