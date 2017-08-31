@@ -1,15 +1,16 @@
 # MyTools
 提供开发过程中常见的工具类，如清理缓存等
 
-使用方法：
+**使用方法：**
 
 1. 吐司工具类  
-	ToastUtils.showToast(this,"弹出吐司成功");
+	`ToastUtils.showToast(this,"弹出吐司成功");`
 
 2. 缓存清理工具类  
-	DataClean.cleanApplicationData(this,"文件的路径");  
+	`DataClean.cleanApplicationData(this,"文件的路径"); ` 
 
-3.
+3. 获取版本号的工具类  
+	`VersionUtils.getAppVersionCode(context);`
 
 **如果你想在项目中使用的话，可以按照以下步骤来使用**
 
