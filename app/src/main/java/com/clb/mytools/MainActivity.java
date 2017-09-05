@@ -5,8 +5,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import com.clb.mytoolslibrary.NetWorkUtil;
 import com.clb.mytoolslibrary.ToastUtils;
-import com.clb.mytoolslibrary.VersionUtils;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -17,8 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //获取应用的版本号
-        tvVersionCode = (TextView) findViewById(R.id.tv_version_code);
-        tvVersionCode.setText(VersionUtils.getAppVersionCode(this)+"");
+
+
     }
 }

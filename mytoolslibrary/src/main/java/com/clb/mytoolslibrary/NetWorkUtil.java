@@ -63,14 +63,14 @@ public class NetWorkUtil {
 	 * @return
 	 * @throws Exception
 	 */
-	public static boolean isWifiDataEnable(Context context){
+	/*public static boolean isWifiDataEnable(Context context){
 		ConnectivityManager connectivityManager = (ConnectivityManager) context
 				.getSystemService(Context.CONNECTIVITY_SERVICE);
 		boolean isWifiDataEnable = false;
 		isWifiDataEnable = connectivityManager.getNetworkInfo(
 				ConnectivityManager.TYPE_WIFI).isConnectedOrConnecting();
 		return isWifiDataEnable;
-	}
+	}*/
 	
 	/**
 	 * 跳转到网络设置页面
