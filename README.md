@@ -13,10 +13,10 @@
 	`VersionUtils.getAppVersionCode(context);`
 
 4. 网络状态判断的工具类  
-`NetWorkUtils  `
+    `NetWorkUtils  `
 
-5. SD卡操作的工具类，可以获取SD卡的容量等等
-	`SDCardUtils`
+5. SD卡操作的工具类，可以获取SD卡的容量等等  
+    `SDCardUtils`
 
 **如果你想在项目中使用的话，可以按照以下步骤来使用**
 
